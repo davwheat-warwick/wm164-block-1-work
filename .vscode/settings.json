@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.strings": "plist",
+    "*.plist": "plist",
+    "cmath": "cpp"
+  }
+}
