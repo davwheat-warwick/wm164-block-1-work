@@ -3,6 +3,7 @@
     "*.strings": "plist",
     "*.plist": "plist",
     "cmath": "cpp",
-    "cstdlib": "cpp"
+    "cstdlib": "cpp",
+    "xstring": "cpp"
   }
 }
