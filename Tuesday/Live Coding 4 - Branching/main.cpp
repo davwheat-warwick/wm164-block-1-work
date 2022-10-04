@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-#include "./main.h"
+#include "./main.hpp"
 
 int main()
 {

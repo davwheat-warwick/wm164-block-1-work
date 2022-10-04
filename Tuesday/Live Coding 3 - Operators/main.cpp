@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "./main.h"
+#include "./main.hpp"
 
 int main()
 {

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-#include "./main.h"
+#include "./main.hpp"
 
 #define EXAM_COUNT 3
 #define PRECISION 2
