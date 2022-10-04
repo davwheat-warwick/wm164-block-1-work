@@ -2,6 +2,7 @@
   "files.associations": {
     "*.strings": "plist",
     "*.plist": "plist",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "cstdlib": "cpp"
   }
 }
