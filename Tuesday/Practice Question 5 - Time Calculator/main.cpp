@@ -4,11 +4,6 @@
 
 #include "./main.hpp"
 
-#define EXAM_COUNT 3
-#define PRECISION 2
-
-#define PRECISION_MULT pow(10, PRECISION)
-
 int main()
 {
   int seconds = 0;
