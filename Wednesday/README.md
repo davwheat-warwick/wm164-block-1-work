@@ -14,7 +14,7 @@
 
 ### Returning multiple values from a function
 
-> Can a function return more than 1 values in C++?
+> Can a function return more than one value in C++?
 
 Functions can return multiple values in a few different ways. One example is by taking advantage of a data type called a Tuple.
 
