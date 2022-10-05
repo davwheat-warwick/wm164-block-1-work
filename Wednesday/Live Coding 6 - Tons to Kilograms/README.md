@@ -1,4 +1,4 @@
-# Practice question 6
+# Live coding 6
 
 ## Tons to Kilograms
 
