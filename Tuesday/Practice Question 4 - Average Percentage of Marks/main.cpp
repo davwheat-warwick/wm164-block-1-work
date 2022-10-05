@@ -1,12 +1,10 @@
 #include <iostream>
+#include <iomanip>
 #include <math.h>
 
 #include "./main.hpp"
 
 #define EXAM_COUNT 3
-#define PRECISION 2
-
-#define PRECISION_MULT pow(10, PRECISION)
 
 int main()
 {
@@ -17,14 +15,9 @@ int main()
     marks += inputExamPercent(i + 1);
   }
 
-  double average = customRound(marks / EXAM_COUNT);
+  double average = marks / EXAM_COUNT;
 
-  std::cout << "\nYour average percentage is " << average << "%." << std::endl;
-}
-
-double customRound(double val)
-{
-  return round(val * PRECISION_MULT) / PRECISION_MULT;
+  std::cout << std::setprecision(2) << std::fixed << "\nYour average percentage is " << average << "%." << std::endl;
 }
 
 double inputExamPercent(int examNum)
