@@ -4,6 +4,7 @@
     "*.plist": "plist",
     "cmath": "cpp",
     "cstdlib": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "tuple": "cpp"
   }
 }
